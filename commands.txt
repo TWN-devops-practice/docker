@@ -1,2 +1,10 @@
 docker run -e POSTGRES_PASSWORD=mysecretpassword postgres:13.10
+docker pull redis
+docker images
+docker run redis
+docker ps
+docker stop <container_id>
+docker run redis:19.0 ( pulls and runs the conyainer)
+docker run -p 6000:6379
+ 
 
