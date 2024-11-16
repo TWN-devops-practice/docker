@@ -1,0 +1,2 @@
+docker run -e POSTGRES_PASSWORD=mysecretpassword postgres:13.10
+
